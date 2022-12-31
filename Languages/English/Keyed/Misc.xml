@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Igor.AdjustDamageMultiplier>Adjust damage multiplier: </Igor.AdjustDamageMultiplier>
+  <Igor.AdjustMinPopulationForThreats>Adjust minimum population for threats: </Igor.AdjustMinPopulationForThreats>
+  <Igor.AdjustRaidWarningInterval>Adjust raid warning interval: </Igor.AdjustRaidWarningInterval>
+  <Igor.PickGoodIncidentToFire>Pick incidents to fire: </Igor.PickGoodIncidentToFire>
+  <Igor.EnableRaidWarning>Enable raid warning: </Igor.EnableRaidWarning>
+  <Igor.CurrentModVersion>Installed mod-version: {0}</Igor.CurrentModVersion>
+</LanguageData>

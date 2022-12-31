@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>[KYD] Igor Raid Mechanics for All Storytellers (Continued)</name>
+  <packageId>Mlie.KYDIgorRaidMechanicsForAllStorytellers</packageId>
+  <author>Kayedon, Taranchuk</author>
+  <url>https://github.com/emipa606/KYDIgorRaidMechanicsForAllStorytellers</url>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+  </supportedVersions>
+  <modDependencies>
+    <li>
+      <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+      <displayName>Vanilla Expanded Framework</displayName>
+      <steamWorkshopUrl>https://steamcommunity.com/workshop/filedetails/?id=2023507013</steamWorkshopUrl>
+      <downloadUrl>https://github.com/AndroidQuazar/VanillaExpandedFramework</downloadUrl>
+    </li>
+  </modDependencies>
+  <loadAfter>
+    <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+Update of Kayedon, Taranchuks mod
+https://steamcommunity.com/sharedfiles/filedetails/?id=2375086062
+with permission
+
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+    [tr]
+        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/KYDIgorRaidMechanicsForAllStorytellers][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013][img]https://i.imgur.com/N7PmE7J.png[/img][/url]
+[img]https://i.imgur.com/vUcocY7.png[/img]
+
+[b]Igor Raid Mechanics for All Storytellers[/b] brings the features of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2249879548&amp;amp;searchtext=igor]Vanilla Storytellers Expanded - Igor Invader[/url] to every storyteller across the Rim!
+
+[img]https://i.imgur.com/gjlczTl.png[/img]
+Igor Raid Mechanics brings the following features:
+[list][*][b]Damage multiplier[/b], default 2x. User-adjustable from 0.10 to 5.00. Combat has never been so lethal or similar to tickling a rhino with a feather. 
+[*][b]Minimum population for threats[/b], default 1. User-adjustable from 0 to 99. You decide when you are ready for raids! Just watch that wealth.
+[*][b]Raid rewards![/b] Successfully take out a threat? Choose what events can happen! Good, bad, it's your choice. 
+[*][b]Raid reinforcements![/b] Take a loss? Enemy reinforcements have arrived!
+[*][b]Raid warning[/b], default off. User-adjustable raid warning from 1-24 hours.[/list]
+
+[img]https://i.imgur.com/XqPwU9c.png[/img]
+
+[img]https://i.imgur.com/IEu1Z6x.png[/img]
+Q: Is this mod complete?
+A: Yep. Unless we find some squashable bugs.
+
+Q: Save game compatible?
+A: Yes, add it any time, adjust settings on the fly!
+
+Q: Does this change the frequency of raids?
+A: No, I wanted this mod because I loved the damage increase and raid enhancements from Igor Invader, but disliked the raid frequency. Play with any storyteller at any difficulty you want, and this mod will do it's duty in the background.
+
+Q: Do I need to subscribe to and have Igor Invader active?
+A: Nope! All the code to make Igor work is handled by Vanilla Framework Expanded, just load us after the framework and you're good to go.
+
+[img]https://i.imgur.com/Lg4aSWw.png[/img]
+Vanilla Expanded Framework, thanks to Oskar Potocki, Sarg Bjornson, Kikohi, Orion, Taranchuk, XeoNovaDan, erdelf, &amp;amp; legodude17.
+C#: Taranchuk
+Banner &amp;amp; Description graphics: Alastair
+Desire to raid the entire rim: Kayedon
+Created with permission from Oskar Potocki.
+
+[url=https://www.patreon.com/Kayedon][img]https://imgur.com/4uYGIqZ.png[/img][/url]
+	
+[img]https://i.imgur.com/PwoNOj4.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]</description>
+</ModMetaData>
