@@ -1,5 +1,4 @@
-﻿using System.Collections.Generic;
-using RimWorld;
+﻿using RimWorld;
 using VanillaStorytellersExpanded;
 using Verse;
 
@@ -33,7 +32,7 @@ public static class DefsAlterer
                 modExtension = new StorytellerDefExtension();
                 if (storytellerDef.modExtensions is null)
                 {
-                    storytellerDef.modExtensions = new List<DefModExtension>();
+                    storytellerDef.modExtensions = [];
                 }
 
                 storytellerDef.modExtensions.Add(modExtension);

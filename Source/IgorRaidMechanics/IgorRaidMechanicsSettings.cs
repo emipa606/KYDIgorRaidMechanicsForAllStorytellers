@@ -10,8 +10,8 @@ public class IgorRaidMechanicsSettings : ModSettings
 {
     private static Vector2 scrollPosition = Vector2.zero;
 
-    public List<string> baseGoodIncidents = new List<string>
-    {
+    public readonly List<string> baseGoodIncidents =
+    [
         "ResourcePodCrash",
         "PsychicSoothe",
         "SelfTame",
@@ -22,13 +22,13 @@ public class IgorRaidMechanicsSettings : ModSettings
         "ThrumboPasses",
         "MeteoriteImpact",
         "WildManWandersIn"
-    };
+    ];
 
     public float damageMultiplier;
     public int disableThreatsAtPopulationCount;
     public bool enableRaidWarning;
     public bool firstTimeInit = true;
-    public List<string> goodIncidents = new List<string>();
+    public List<string> goodIncidents = [];
     public int raidWarningInterval;
 
     public override void ExposeData()

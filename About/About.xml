@@ -8,6 +8,7 @@
     <li>1.2</li>
     <li>1.3</li>
     <li>1.4</li>
+    <li>1.5</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -29,7 +30,7 @@ with permission
 
 [table]
     [tr]
-        [td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+        [td][url=https://dsc.gg/mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
         [td][url=https://github.com/emipa606/KYDIgorRaidMechanicsForAllStorytellers][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
     [/tr]
     [tr]
@@ -42,7 +43,7 @@ with permission
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013][img]https://i.imgur.com/N7PmE7J.png[/img][/url]
 [img]https://i.imgur.com/vUcocY7.png[/img]
 
-[b]Igor Raid Mechanics for All Storytellers[/b] brings the features of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2249879548&amp;amp;searchtext=igor]Vanilla Storytellers Expanded - Igor Invader[/url] to every storyteller across the Rim!
+[b]Igor Raid Mechanics for All Storytellers[/b] brings the features of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2249879548]Vanilla Storytellers Expanded - Igor Invader[/url] to every storyteller across the Rim!
 
 [img]https://i.imgur.com/gjlczTl.png[/img]
 Igor Raid Mechanics brings the following features:
@@ -68,21 +69,23 @@ Q: Do I need to subscribe to and have Igor Invader active?
 A: Nope! All the code to make Igor work is handled by Vanilla Framework Expanded, just load us after the framework and you're good to go.
 
 [img]https://i.imgur.com/Lg4aSWw.png[/img]
-Vanilla Expanded Framework, thanks to Oskar Potocki, Sarg Bjornson, Kikohi, Orion, Taranchuk, XeoNovaDan, erdelf, &amp;amp; legodude17.
+Vanilla Expanded Framework, thanks to Oskar Potocki, Sarg Bjornson, Kikohi, Orion, Taranchuk, XeoNovaDan, erdelf, and legodude17.
 C#: Taranchuk
-Banner &amp;amp; Description graphics: Alastair
+Banner and Description graphics: Alastair
 Desire to raid the entire rim: Kayedon
 Created with permission from Oskar Potocki.
-
-[url=https://www.patreon.com/Kayedon][img]https://imgur.com/4uYGIqZ.png[/img][/url]
 	
 [img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
-[/list]</description>
+[*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
+[/list]
+
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2910357702][img]https://img.shields.io/github/v/release/emipa606/KYDIgorRaidMechanicsForAllStorytellers?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url]</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.5.0</modVersion>
 </ModMetaData>

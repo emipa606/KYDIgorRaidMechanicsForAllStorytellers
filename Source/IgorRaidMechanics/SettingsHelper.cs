@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 using Verse;
 
@@ -24,7 +23,7 @@ internal static class SettingsHelper
         var anchor = Text.Anchor;
         Text.Anchor = TextAnchor.MiddleLeft;
         Widgets.Label(rect2, label);
-        var num = Widgets.HorizontalSlider_NewTemp(rect3, val, min, max, true);
+        var num = Widgets.HorizontalSlider(rect3, val, min, max, true);
         val = num;
         Text.Anchor = TextAnchor.MiddleRight;
         Widgets.Label(rect4, string.Format(format, val));
@@ -35,63 +34,5 @@ internal static class SettingsHelper
 
         Text.Anchor = anchor;
         ls.Gap(ls.verticalSpacing);
-    }
-
-    public static Rect GetRect(this Listing_Standard listing_Standard, float? height = null)
-    {
-        return listing_Standard.GetRect(height ?? Text.LineHeight);
-    }
-
-    private static void AddRadioList<T>(this Listing_Standard listing_Standard, List<LabeledRadioValue<T>> items,
-        ref T val, float? height = null)
-    {
-        foreach (var labeledRadioValue in items)
-        {
-            if (Widgets.RadioButtonLabeled(listing_Standard.GetRect(height), labeledRadioValue.Label,
-                    EqualityComparer<T>.Default.Equals(labeledRadioValue.Value, val)))
-            {
-                val = labeledRadioValue.Value;
-            }
-        }
-    }
-
-    private static List<LabeledRadioValue<string>> GenerateLabeledRadioValues(string[] labels)
-    {
-        var list = new List<LabeledRadioValue<string>>();
-        foreach (var text in labels)
-        {
-            list.Add(new LabeledRadioValue<string>(text, text));
-        }
-
-        return list;
-    }
-
-    public static Rect LineRectSpilter(this Listing_Standard listing_Standard, out Rect leftHalf,
-        float leftPartPct = 0.5f, float? height = null)
-    {
-        var rect = listing_Standard.GetRect(height);
-        leftHalf = rect.LeftPart(leftPartPct).Rounded();
-        return rect;
-    }
-
-    public static Rect LineRectSpilter(this Listing_Standard listing_Standard, out Rect leftHalf, out Rect rightHalf,
-        float leftPartPct = 0.5f, float? height = null)
-    {
-        var rect = listing_Standard.LineRectSpilter(out leftHalf, leftPartPct, height);
-        rightHalf = rect.RightPart(1f - leftPartPct).Rounded();
-        return rect;
-    }
-
-    public class LabeledRadioValue<T>
-    {
-        public LabeledRadioValue(string label, T val)
-        {
-            Label = label;
-            Value = val;
-        }
-
-        public string Label { get; set; }
-
-        public T Value { get; set; }
     }
 }

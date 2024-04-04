@@ -16,7 +16,7 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013]![Image](https
 ![Image](https://i.imgur.com/vUcocY7.png)
 
 
-**Igor Raid Mechanics for All Storytellers** brings the features of https://steamcommunity.com/sharedfiles/filedetails/?id=2249879548&amp;searchtext=igor]Vanilla Storytellers Expanded - Igor Invader to every storyteller across the Rim!
+**Igor Raid Mechanics for All Storytellers** brings the features of https://steamcommunity.com/sharedfiles/filedetails/?id=2249879548]Vanilla Storytellers Expanded - Igor Invader to every storyteller across the Rim!
 
 ![Image](https://i.imgur.com/gjlczTl.png)
 
@@ -48,14 +48,11 @@ A: Nope! All the code to make Igor work is handled by Vanilla Framework Expanded
 
 ![Image](https://i.imgur.com/Lg4aSWw.png)
 
-Vanilla Expanded Framework, thanks to Oskar Potocki, Sarg Bjornson, Kikohi, Orion, Taranchuk, XeoNovaDan, erdelf, &amp; legodude17.
+Vanilla Expanded Framework, thanks to Oskar Potocki, Sarg Bjornson, Kikohi, Orion, Taranchuk, XeoNovaDan, erdelf, and legodude17.
 C#: Taranchuk
-Banner &amp; Description graphics: Alastair
+Banner and Description graphics: Alastair
 Desire to raid the entire rim: Kayedon
 Created with permission from Oskar Potocki.
-
-https://www.patreon.com/Kayedon]![Image](https://imgur.com/4uYGIqZ.png)
-
 	
 ![Image](https://i.imgur.com/PwoNOj4.png)
 
@@ -63,9 +60,13 @@ https://www.patreon.com/Kayedon]![Image](https://imgur.com/4uYGIqZ.png)
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib and command Ctrl+F12
+-  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+-  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
 
+
+
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2910357702]![Image](https://img.shields.io/github/v/release/emipa606/KYDIgorRaidMechanicsForAllStorytellers?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
 
