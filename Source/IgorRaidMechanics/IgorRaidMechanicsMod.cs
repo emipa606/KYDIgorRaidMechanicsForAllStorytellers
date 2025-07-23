@@ -6,19 +6,19 @@ namespace IgorRaidMechanics;
 
 public class IgorRaidMechanicsMod : Mod
 {
-    public static IgorRaidMechanicsSettings settings;
-    public static string currentVersion;
+    public static IgorRaidMechanicsSettings Settings;
+    public static string CurrentVersion;
 
     public IgorRaidMechanicsMod(ModContentPack pack) : base(pack)
     {
-        settings = GetSettings<IgorRaidMechanicsSettings>();
-        currentVersion = VersionFromManifest.GetVersionFromModMetaData(pack.ModMetaData);
+        Settings = GetSettings<IgorRaidMechanicsSettings>();
+        CurrentVersion = VersionFromManifest.GetVersionFromModMetaData(pack.ModMetaData);
     }
 
     public override void DoSettingsWindowContents(Rect inRect)
     {
         base.DoSettingsWindowContents(inRect);
-        settings.DoSettingsWindowContents(inRect);
+        Settings.DoSettingsWindowContents(inRect);
     }
 
     public override string SettingsCategory()

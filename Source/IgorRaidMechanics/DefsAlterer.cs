@@ -1,5 +1,5 @@
 ﻿using RimWorld;
-using VanillaStorytellersExpanded;
+using VEF.Storyteller;
 using Verse;
 
 namespace IgorRaidMechanics;
@@ -14,14 +14,14 @@ public static class DefsAlterer
 
     public static void DoDefsAlter()
     {
-        if (IgorRaidMechanicsMod.settings.firstTimeInit)
+        if (IgorRaidMechanicsMod.Settings.FirstTimeInit)
         {
-            IgorRaidMechanicsMod.settings.damageMultiplier = 2f;
-            IgorRaidMechanicsMod.settings.disableThreatsAtPopulationCount = 1;
-            IgorRaidMechanicsMod.settings.goodIncidents =
-                IgorRaidMechanicsMod.settings.baseGoodIncidents.ListFullCopy();
-            IgorRaidMechanicsMod.settings.firstTimeInit = false;
-            IgorRaidMechanicsMod.settings.enableRaidWarning = false;
+            IgorRaidMechanicsMod.Settings.DamageMultiplier = 2f;
+            IgorRaidMechanicsMod.Settings.DisableThreatsAtPopulationCount = 1;
+            IgorRaidMechanicsMod.Settings.GoodIncidents =
+                IgorRaidMechanicsMod.Settings.BaseGoodIncidents.ListFullCopy();
+            IgorRaidMechanicsMod.Settings.FirstTimeInit = false;
+            IgorRaidMechanicsMod.Settings.EnableRaidWarning = false;
         }
 
         foreach (var storytellerDef in DefDatabase<StorytellerDef>.AllDefs)
@@ -30,29 +30,26 @@ public static class DefsAlterer
             if (modExtension is null)
             {
                 modExtension = new StorytellerDefExtension();
-                if (storytellerDef.modExtensions is null)
-                {
-                    storytellerDef.modExtensions = [];
-                }
+                storytellerDef.modExtensions ??= [];
 
                 storytellerDef.modExtensions.Add(modExtension);
             }
 
-            AssignValues(ref modExtension);
+            assignValues(ref modExtension);
         }
     }
 
-    private static void AssignValues(ref StorytellerDefExtension modExtension)
+    private static void assignValues(ref StorytellerDefExtension modExtension)
     {
         modExtension.storytellerThreat = new StorytellerThreat
         {
-            allDamagesMultiplier = IgorRaidMechanicsMod.settings.damageMultiplier,
-            disableThreatsAtPopulationCount = IgorRaidMechanicsMod.settings.disableThreatsAtPopulationCount,
-            goodIncidents = IgorRaidMechanicsMod.settings.goodIncidents
+            allDamagesMultiplier = IgorRaidMechanicsMod.Settings.DamageMultiplier,
+            disableThreatsAtPopulationCount = IgorRaidMechanicsMod.Settings.DisableThreatsAtPopulationCount,
+            goodIncidents = IgorRaidMechanicsMod.Settings.GoodIncidents
         };
-        if (IgorRaidMechanicsMod.settings.enableRaidWarning)
+        if (IgorRaidMechanicsMod.Settings.EnableRaidWarning)
         {
-            var hour = IgorRaidMechanicsMod.settings.raidWarningInterval * 2500;
+            var hour = IgorRaidMechanicsMod.Settings.RaidWarningInterval * 2500;
             modExtension.storytellerThreat.raidWarningRange = new IntRange(hour, hour);
         }
         else

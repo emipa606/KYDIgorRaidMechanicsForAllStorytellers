@@ -10,7 +10,7 @@ public class IgorRaidMechanicsSettings : ModSettings
 {
     private static Vector2 scrollPosition = Vector2.zero;
 
-    public readonly List<string> baseGoodIncidents =
+    public readonly List<string> BaseGoodIncidents =
     [
         "ResourcePodCrash",
         "PsychicSoothe",
@@ -24,30 +24,30 @@ public class IgorRaidMechanicsSettings : ModSettings
         "WildManWandersIn"
     ];
 
-    public float damageMultiplier;
-    public int disableThreatsAtPopulationCount;
-    public bool enableRaidWarning;
-    public bool firstTimeInit = true;
-    public List<string> goodIncidents = [];
-    public int raidWarningInterval;
+    public float DamageMultiplier;
+    public int DisableThreatsAtPopulationCount;
+    public bool EnableRaidWarning;
+    public bool FirstTimeInit = true;
+    public List<string> GoodIncidents = [];
+    public int RaidWarningInterval;
 
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref firstTimeInit, "firstTimeInit");
-        Scribe_Values.Look(ref damageMultiplier, "damageMultiplier");
-        Scribe_Values.Look(ref disableThreatsAtPopulationCount, "disableThreatsAtPopulationCount");
-        Scribe_Values.Look(ref raidWarningInterval, "raidWarningInterval");
-        Scribe_Values.Look(ref enableRaidWarning, "enableRaidWarning");
-        Scribe_Collections.Look(ref goodIncidents, "goodIncidents");
+        Scribe_Values.Look(ref FirstTimeInit, "firstTimeInit");
+        Scribe_Values.Look(ref DamageMultiplier, "damageMultiplier");
+        Scribe_Values.Look(ref DisableThreatsAtPopulationCount, "disableThreatsAtPopulationCount");
+        Scribe_Values.Look(ref RaidWarningInterval, "raidWarningInterval");
+        Scribe_Values.Look(ref EnableRaidWarning, "enableRaidWarning");
+        Scribe_Collections.Look(ref GoodIncidents, "goodIncidents");
     }
 
     public void DoSettingsWindowContents(Rect inRect)
     {
-        var goodIncidentsLocal = goodIncidents.Where(x => DefDatabase<IncidentDef>.GetNamed(x) != null)
+        var goodIncidentsLocal = GoodIncidents.Where(x => DefDatabase<IncidentDef>.GetNamed(x) != null)
             .OrderBy(x => DefDatabase<IncidentDef>.GetNamed(x).label).ToHashSet();
-        goodIncidentsLocal.AddRange(baseGoodIncidents);
-        var allIncidents = DefDatabase<IncidentDef>.AllDefs.Where(x => !goodIncidents.Contains(x.defName))
+        goodIncidentsLocal.AddRange(BaseGoodIncidents);
+        var allIncidents = DefDatabase<IncidentDef>.AllDefs.Where(x => !GoodIncidents.Contains(x.defName))
             .OrderBy(x => x.label).ToList();
         var rect = new Rect(inRect.x, inRect.y, inRect.width, inRect.height);
         var rect2 = new Rect(0f, 0f, inRect.width - 30f,
@@ -57,42 +57,42 @@ public class IgorRaidMechanicsSettings : ModSettings
         listingStandard.Begin(rect2);
         if (listingStandard.ButtonText("Reset".Translate()))
         {
-            firstTimeInit = true;
+            FirstTimeInit = true;
             DefsAlterer.DoDefsAlter();
         }
 
-        listingStandard.SliderLabeled("Igor.AdjustDamageMultiplier".Translate(), ref damageMultiplier,
-            damageMultiplier.ToStringDecimalIfSmall(), 0.1f, 5f);
+        listingStandard.SliderLabeled("Igor.AdjustDamageMultiplier".Translate(), ref DamageMultiplier,
+            DamageMultiplier.ToStringDecimalIfSmall(), 0.1f, 5f);
         listingStandard.SliderLabeled("Igor.AdjustMinPopulationForThreats".Translate(),
-            ref disableThreatsAtPopulationCount, disableThreatsAtPopulationCount.ToString(), 0, 99);
-        listingStandard.CheckboxLabeled("Igor.EnableRaidWarning".Translate(), ref enableRaidWarning);
-        if (enableRaidWarning)
+            ref DisableThreatsAtPopulationCount, DisableThreatsAtPopulationCount.ToString(), 0, 99);
+        listingStandard.CheckboxLabeled("Igor.EnableRaidWarning".Translate(), ref EnableRaidWarning);
+        if (EnableRaidWarning)
         {
-            listingStandard.SliderLabeled("Igor.AdjustRaidWarningInterval".Translate(), ref raidWarningInterval,
-                raidWarningInterval.ToString(), 0, 24);
+            listingStandard.SliderLabeled("Igor.AdjustRaidWarningInterval".Translate(), ref RaidWarningInterval,
+                RaidWarningInterval.ToString(), 0, 24);
         }
 
         listingStandard.Label("Igor.PickGoodIncidentToFire".Translate());
-        if (IgorRaidMechanicsMod.currentVersion != null)
+        if (IgorRaidMechanicsMod.CurrentVersion != null)
         {
             listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listingStandard.Label("Igor.CurrentModVersion".Translate(IgorRaidMechanicsMod.currentVersion));
+            listingStandard.Label("Igor.CurrentModVersion".Translate(IgorRaidMechanicsMod.CurrentVersion));
             GUI.contentColor = Color.white;
         }
 
         listingStandard.GapLine();
         foreach (var incident in goodIncidentsLocal)
         {
-            var test = goodIncidents.Contains(incident);
+            var test = GoodIncidents.Contains(incident);
             listingStandard.CheckboxLabeled(DefDatabase<IncidentDef>.GetNamed(incident).label, ref test);
             if (!test)
             {
-                goodIncidents.Remove(incident);
+                GoodIncidents.Remove(incident);
             }
-            else if (!goodIncidents.Contains(incident))
+            else if (!GoodIncidents.Contains(incident))
             {
-                goodIncidents.Add(incident);
+                GoodIncidents.Add(incident);
             }
         }
 
@@ -103,7 +103,7 @@ public class IgorRaidMechanicsSettings : ModSettings
             listingStandard.CheckboxLabeled(incident.label, ref test);
             if (test)
             {
-                goodIncidents.Add(incident.defName);
+                GoodIncidents.Add(incident.defName);
             }
         }
 
