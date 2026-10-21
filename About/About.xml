@@ -10,6 +10,7 @@
     <li>1.4</li>
     <li>1.5</li>
     <li>1.6</li>
+    <li>1.7</li>
   </supportedVersions>
   <modDependencies>
     <li>
@@ -22,31 +23,31 @@
   <loadAfter>
     <li>OskarPotocki.VanillaFactionsExpanded.Core</li>
   </loadAfter>
-  <description>[img]https://i.imgur.com/buuPQel.png[/img]
+  <description>[img]https://img.litet.net/logos/Info.png[/img]
 Update of Kayedon, Taranchuks mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2375086062
 with permission
 
-[img]https://i.imgur.com/pufA0kM.png[/img]
+[img]https://img.litet.net/logos/Notice.png[/img]
 
 [table]
     [tr]
-        [td][url=https://discord.gg/h5TY6DA][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
-        [td][url=https://github.com/emipa606/KYDIgorRaidMechanicsForAllStorytellers][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+        [td][url=https://discord.gg/h5TY6DA][img]https://img.litet.net/logos/Discord.png[/img][/url][/td]
+        [td][url=https://github.com/emipa606/KYDIgorRaidMechanicsForAllStorytellers][img]https://img.litet.net/logos/Github.png[/img][/url][/td]
     [/tr]
     [tr]
-        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
-        [td][img]https://i.imgur.com/h5VwTNL.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToAdd.png[/img][/td]
+        [td][img]https://img.litet.net/logos/SafeToRemove.png[/img][/td]
     [/tr]
 [/table]
 	
-[img]https://i.imgur.com/Z4GOv8H.png[/img]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013][img]https://i.imgur.com/N7PmE7J.png[/img][/url]
-[img]https://i.imgur.com/vUcocY7.png[/img]
+[img]https://img.litet.net/logos/OriginalDescription.png[/img]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013][img]https://img.litet.net/logos/ImageNotFound.png[/img][/url]
+[img]https://img.litet.net/vUcocY7.png[/img]
 
 [b]Igor Raid Mechanics for All Storytellers[/b] brings the features of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2249879548]Vanilla Storytellers Expanded - Igor Invader[/url] to every storyteller across the Rim!
 
-[img]https://i.imgur.com/gjlczTl.png[/img]
+[img]https://img.litet.net/gjlczTl.png[/img]
 Igor Raid Mechanics brings the following features:
 [list][*][b]Damage multiplier[/b], default 2x. User-adjustable from 0.10 to 5.00. Combat has never been so lethal or similar to tickling a rhino with a feather. 
 [*][b]Minimum population for threats[/b], default 1. User-adjustable from 0 to 99. You decide when you are ready for raids! Just watch that wealth.
@@ -54,9 +55,9 @@ Igor Raid Mechanics brings the following features:
 [*][b]Raid reinforcements![/b] Take a loss? Enemy reinforcements have arrived!
 [*][b]Raid warning[/b], default off. User-adjustable raid warning from 1-24 hours.[/list]
 
-[img]https://i.imgur.com/XqPwU9c.png[/img]
+[img]https://img.litet.net/XqPwU9c.png[/img]
 
-[img]https://i.imgur.com/IEu1Z6x.png[/img]
+[img]https://img.litet.net/IEu1Z6x.png[/img]
 Q: Is this mod complete?
 A: Yep. Unless we find some squashable bugs.
 
@@ -69,24 +70,24 @@ A: No, I wanted this mod because I loved the damage increase and raid enhancemen
 Q: Do I need to subscribe to and have Igor Invader active?
 A: Nope! All the code to make Igor work is handled by Vanilla Framework Expanded, just load us after the framework and you're good to go.
 
-[img]https://i.imgur.com/Lg4aSWw.png[/img]
+[img]https://img.litet.net/Lg4aSWw.png[/img]
 Vanilla Expanded Framework, thanks to Oskar Potocki, Sarg Bjornson, Kikohi, Orion, Taranchuk, XeoNovaDan, erdelf, and legodude17.
 C#: Taranchuk
 Banner and Description graphics: Alastair
 Desire to raid the entire rim: Kayedon
 Created with permission from Oskar Potocki.
 	
-[img]https://i.imgur.com/PwoNOj4.png[/img]
+[img]https://img.litet.net/logos/ReportingIssues.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
-[*] Post your error-log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url] or the standalone [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader[/url] and command Ctrl+F12
+[*] Always post your log using the [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Log Uploader[/url]
 [*] For best support, please use the Discord-channel for error-reporting.
 [*] Do not report errors by making a discussion-thread, I get no notification of that.
 [*] If you have the solution for a problem, please post it to the GitHub repository.
 [*] Use [url=https://github.com/RimSort/RimSort/releases/latest]RimSort[/url] to sort your mods
 [/list] 
 
-[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2910357702][img]https://img.shields.io/github/v/release/emipa606/KYDIgorRaidMechanicsForAllStorytellers?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | tags:  raid mechanics</description>
-  <modVersion IgnoreIfNoMatchingField="True">1.6.0</modVersion>
+[url=https://steamcommunity.com/sharedfiles/filedetails/changelog/2910357702][img]https://img.shields.io/github/v/release/emipa606/KYDIgorRaidMechanicsForAllStorytellers?label=latest%20version&amp;style=plastic&amp;color=9f1111&amp;labelColor=black[/img][/url] | 1.6, Mod, 1.5, 1.2, 1.3, 1.4</description>
+  <modVersion IgnoreIfNoMatchingField="True">1.7.0</modVersion>
 </ModMetaData>

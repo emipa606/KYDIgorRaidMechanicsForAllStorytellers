@@ -1,21 +1,21 @@
 # [[KYD] Igor Raid Mechanics for All Storytellers (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2910357702)
 
-![Image](https://i.imgur.com/buuPQel.png)
+![Image](https://img.litet.net/logos/Info.png)
 
 Update of Kayedon, Taranchuks mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=2375086062
 with permission
 
-![Image](https://i.imgur.com/pufA0kM.png)
+![Image](https://img.litet.net/logos/Notice.png)
 	
-![Image](https://i.imgur.com/Z4GOv8H.png)
+![Image](https://img.litet.net/logos/OriginalDescription.png)
 
-[![Image](https://i.imgur.com/N7PmE7J.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013)
-![Image](https://i.imgur.com/vUcocY7.png)
+[![Image](https://img.litet.net/logos/ImageNotFound.png)](https://steamcommunity.com/sharedfiles/filedetails/?id=2023507013)
+![Image](https://img.litet.net/vUcocY7.png)
 
 **Igor Raid Mechanics for All Storytellers** brings the features of [Vanilla Storytellers Expanded - Igor Invader](https://steamcommunity.com/sharedfiles/filedetails/?id=2249879548) to every storyteller across the Rim!
 
-![Image](https://i.imgur.com/gjlczTl.png)
+![Image](https://img.litet.net/gjlczTl.png)
 
 Igor Raid Mechanics brings the following features:
 
@@ -26,9 +26,9 @@ Igor Raid Mechanics brings the following features:
 - **Raid warning**, default off. User-adjustable raid warning from 1-24 hours.
 
 
-![Image](https://i.imgur.com/XqPwU9c.png)
+![Image](https://img.litet.net/XqPwU9c.png)
 
-![Image](https://i.imgur.com/IEu1Z6x.png)
+![Image](https://img.litet.net/IEu1Z6x.png)
 
 Q: Is this mod complete?
 A: Yep. Unless we find some squashable bugs.
@@ -42,7 +42,7 @@ A: No, I wanted this mod because I loved the damage increase and raid enhancemen
 Q: Do I need to subscribe to and have Igor Invader active?
 A: Nope! All the code to make Igor work is handled by Vanilla Framework Expanded, just load us after the framework and you're good to go.
 
-![Image](https://i.imgur.com/Lg4aSWw.png)
+![Image](https://img.litet.net/Lg4aSWw.png)
 
 Vanilla Expanded Framework, thanks to Oskar Potocki, Sarg Bjornson, Kikohi, Orion, Taranchuk, XeoNovaDan, erdelf, and legodude17.
 C#: Taranchuk
@@ -50,13 +50,13 @@ Banner and Description graphics: Alastair
 Desire to raid the entire rim: Kayedon
 Created with permission from Oskar Potocki.
 	
-![Image](https://i.imgur.com/PwoNOj4.png)
+![Image](https://img.litet.net/logos/ReportingIssues.png)
 
 
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
+-  Always post your log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404)
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
@@ -64,4 +64,4 @@ Created with permission from Oskar Potocki.
 
  
 
-[![Image](https://img.shields.io/github/v/release/emipa606/KYDIgorRaidMechanicsForAllStorytellers?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2910357702) | tags:  raid mechanics
+[![Image](https://img.shields.io/github/v/release/emipa606/KYDIgorRaidMechanicsForAllStorytellers?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2910357702) | 1.6, Mod, 1.5, 1.2, 1.3, 1.4
